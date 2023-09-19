@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightskyblue;
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(photos/pix\ 7.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 500px;
+}
+ul{
+    display: flex;
+    padding-top: 30px;
+}
+li{
+ list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+.pix {
+    display: flex;
+    justify-content: space-between;
+}
+.pix img {
+    padding: 10px 10px;
+}
+li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.details img{
+    padding: 10px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.btn{
+    text-align: center;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 30px;
+ }
+ a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 20px;
+    padding: 12px 30px;
+
+ }
+ h3{
+    padding-bottom: 30px;
+    padding-top: 5px;
+    color: red;
+ }
+.text h1{
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.ab{
+    color: red;
+    text-align: center;
+    text-decoration: underline black;
+    margin-bottom: 10px;
+}
+.abb{
+    color: red;
+    text-align: center;
+    text-decoration: underline black;
+    margin-bottom: 10px;
+}
+.adv{
+    color: red;
+    text-align: center;
+    text-decoration: underline black;
+    margin-top: 20px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+.section-a{
+  display: flex;
+}
+.section-a .box1{
+    background-color: grey;
+    color: white;
+    text-align: start;
+}
+.section-a .box2{
+    background-color: white;
+    color: red;
+    padding: 5px;
+}
+.section-a .box3{
+      color: yellow;
+      background-color: black;
+      padding: 5px;
+}
+.card{
+    width: 20%;   
+   background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 70px; 
+    display: inline-block;
+    cursor: pointer;
+}
+.photo img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+}
+.tittle{
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.num{
+    text-align: center;
+    padding: 8px;
+    color: red;
+    font-weight: 800;
+    font-size: larger;
+}
+.des{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    padding-bottom: 20px;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px blueviolet;
+}
